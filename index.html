@@ -11,6 +11,7 @@
     <title>jogo da velha</title>
 </head>
 <body class="fullscreen">
+    <div class="container">
     <div class="fila">
     <button id="1" onclick="jogada('1')"></button>
     <button id="2" onclick="jogada('2')"></button>
@@ -25,6 +26,18 @@
     <button id="7" onclick="jogada('7')"></button>
     <button id="8" onclick="jogada('8')"></button>
     <button id="9" onclick="jogada('9')"></button>
+    </div>
+    <a href="#" class="button1" onclick="resetGame()">Reset</a>
+    <div class="X">
+              <p>X GANHOU:<h3 id="playerX"> 0 </h3> VEZES!</p>
+              <a href="#" class="button" onclick="pointOne()">+1</a>
+              <a href="#" class="button1" onclick="reset()">Reset</a>
+    </div>
+    <div class="O">
+              <p>O GANHOU:<h3 id="playerO"> 0 </h3> VEZES!</p>
+              <a href="#" class="button" onclick="pointOner()">+1</a>
+              <a href="#" class="button1" onclick="resetr()">Reset</a>
+    </div>
     </div>
 </body>
 </html>
