@@ -3,19 +3,19 @@
     "short_name": "jogo-da-velha",
     "icons": [
         {
-            "src": "img/.png",
+            "src": "img/leitura copy.png",
             "sizes": "256x256",
-            "type": "img/png"
+            "type": "image/png"
         },
         {
-            "src": "img/.png",
+            "src": "img/leitura.png",
             "sizes": "512x512",
-            "type": "img/png"
+            "type": "image/png"
         },
         {
-            "src": "img/.png",
+            "src": "img/leitura.png",
             "sizes": "512x512",
-            "type": "img/png",
+            "type": "image/png",
             "purpose": "any maskable"
         }
     ],

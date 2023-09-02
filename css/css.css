@@ -9,3 +9,12 @@ html, .fullscreen{
     padding: 0;
     width: 100%;
 }
+
+button{
+    width: 100px;
+    height: 100px;
+}
+
+.fila{
+    display: flex;
+}
